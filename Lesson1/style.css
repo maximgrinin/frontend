@@ -1,0 +1,17 @@
+h1 {
+    color: #0f80f1;
+}
+
+h2 {
+    color: #1ee94a;
+}
+
+p {
+    color: magenta;
+    font-size: 16px;
+}
+
+pre {
+    color: violet;
+    font-size: 30px;
+}

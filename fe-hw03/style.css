@@ -1,0 +1,47 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 32pt;
+}
+
+.redol {
+    color: crimson;
+    font-size: 18pt;
+    margin: 20px;
+}
+
+.css {
+    color: darkblue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h2 {
+    color: darkgreen;
+    font-size: 24pt;
+    margin: 20px 8px;
+}
+
+.text {
+    font-family: sans-serif;
+    font-size: 13pt;
+    width: 38%;
+    text-align: justify;
+    line-height: 2;
+}
+
+.bigred {
+    color:red;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+.brownitalic {
+    font-family: serif;
+    /*color: rosybrown;*/
+    color: #924964;
+    font-style: italic;
+    font-size: 16pt;
+    text-align: left;
+    line-height: 1;
+}

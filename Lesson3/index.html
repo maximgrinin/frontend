@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Unordered lists (UL), ordered lists (OL), and list items... -->
+    <!-- Unordered List
+    "disc" - чёрная точка, по умолчанию
+    "circle" - кружок с пустотой внутри
+    "square" - чёрный квадрат -->
+    <ul type="disc">
+        <li>Google</li>
+        <li>Apple</li>
+        <li>IBM</li>
+        <li>Sun</li>
+        <li>Dell</li>
+    </ul>
+    <!-- 1, A, a, I, i -->
+    <ol start="5" reversed type="i">
+        <li>Google</li>
+        <li>Apple</li>
+        <li>IBM</li>
+        <li>Sun</li>
+        <li>Dell</li>
+    </ol>
+    <!-- <dl> («description list») обозначает сам список описаний;
+         <dt> («description term») обозначает термин;
+         <dd> («description definition») обозначает описание или определение. -->
+    <dl>
+        <dt>Режиссер:</dt>
+            <dd>Спилберг</dd>
+        <dt>В ролях::</dt>
+            <dd>НЕ Спилберг</dd>
+    </dl>
+    <ol class="tasklist">
+        <li>Пресс качат</li>
+        <li>Бегит</li>
+        <li>Турник</li>
+        <li>Анжуманя</li>
+        <li>Гантбли</li>
+    </ol>
+    <table>
+        <caption>Table Caption</caption>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+        </tr>
+        <tr>
+            <td>Stieven</td>
+            <td>Spielberg</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <td rowspan="2"> Браузер</td>
+            <th colspan="2">MSIE</th>
+            <th colspan="3">Opera</th>
+            <th colspan="2">FF</th>
+        </tr>
+        <tr>
+            <th>6.0</th>
+            <th>7.0</th>
+            <th>7.0</th>
+            <th>8.0</th>
+            <th>9.0</th>
+            <th>1.0</th>
+            <th>2.0</th>
+        </tr>
+        <tr>
+            <td>Поддерживается</td>
+            <td>Нет</td>
+            <td>Да</td>
+            <td>Нет</td>
+            <td>Да</td>
+            <td>Да</td>
+            <td>Да</td>
+            <td>Да</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th rowspan="2">Heading</th>
+            <th>Students</th>
+            <th colspan="3">Details</th>
+        </tr>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Roll Number</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Student List</td>
+            <td>1</td>
+            <td>Victor</td>
+            <td>Computer Science</td>
+            <td>12345</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Williams</td>
+            <td>Electronics</td>
+            <td>23456</td>
+        </tr>
+    </table>
+    <br>
+    <table class="zeebra">
+        <tr>
+            <th>Company</th>
+            <th>Q1</th>
+            <th>Q2</th>
+            <th>Q3</th>
+            <th>Q4</th>
+        </tr>
+        <tr>
+            <td>Microsoft</td>
+            <td>20.3</td>
+            <td>30.5</td>
+            <td>23.5</td>
+            <td>40.3</td>
+        </tr>
+        <tr>
+            <td>Google</td>
+            <td>50.2</td>
+            <td>40.63</td>
+            <td>45.23</td>
+            <td>39.3</td>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>25.4</td>
+            <td>30.2</td>
+            <td>33.3</td>
+            <td>36.7</td>
+        </tr>
+        <tr>
+            <td>Google</td>
+            <td>50.2</td>
+            <td>40.63</td>
+            <td>45.23</td>
+            <td>39.3</td>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>25.4</td>
+            <td>30.2</td>
+            <td>33.3</td>
+            <td>36.7</td>
+        </tr>
+        <tr>
+            <td>Google</td>
+            <td>50.2</td>
+            <td>40.63</td>
+            <td>45.23</td>
+            <td>39.3</td>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>25.4</td>
+            <td>30.2</td>
+            <td>33.3</td>
+            <td>36.7</td>
+        </tr>
+        <tr>
+            <td>Google</td>
+            <td>50.2</td>
+            <td>40.63</td>
+            <td>45.23</td>
+            <td>39.3</td>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>25.4</td>
+            <td>30.2</td>
+            <td>33.3</td>
+            <td>36.7</td>
+        </tr>
+        <tr>
+            <td>Google</td>
+            <td>50.2</td>
+            <td>40.63</td>
+            <td>45.23</td>
+            <td>39.3</td>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>25.4</td>
+            <td>30.2</td>
+            <td>33.3</td>
+            <td>36.7</td>
+        </tr>
+        <tr>
+            <td>Google</td>
+            <td>50.2</td>
+            <td>40.63</td>
+            <td>45.23</td>
+            <td>39.3</td>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>25.4</td>
+            <td>30.2</td>
+            <td>33.3</td>
+            <td>36.7</td>
+        </tr>
+        <tr>
+            <td>Google</td>
+            <td>50.2</td>
+            <td>40.63</td>
+            <td>45.23</td>
+            <td>39.3</td>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>25.4</td>
+            <td>30.2</td>
+            <td>33.3</td>
+            <td>36.7</td>
+        </tr>
+    </table>
+    <br>
+    <table class="orderlist">
+        <tr>
+            <th>№ п/п</th>
+            <th>Наименование товара</th>
+            <th>Ед. изм.</th>
+            <th>Количество</th>
+            <th>Цена за ед. изм., руб.</th>
+            <th>Стоимость, руб.</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Томаты свежие</td>
+            <td>кг</td>
+            <td>15,20</td>
+            <td>69,00</td>
+            <td>1048,80</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Огурцы свежие</td>
+            <td>кг</td>
+            <td>2,50</td>
+            <td>48,00</td>
+            <td>120,00</td>
+        </tr>
+        <tr>
+            <td colspan="5" align="right">ИТОГО:</td>
+            <td>1168,80</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>

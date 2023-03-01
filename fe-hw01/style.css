@@ -1,0 +1,62 @@
+#image_work {
+    width: 96%;
+}
+
+#image_hobby {
+    width: 65%;
+}
+
+#image_friends {
+    width: 100%;
+}
+
+.blocks {
+    width: 30%;
+    height: 500px;
+    display:inline-block;
+    margin: 0px;
+    padding: 20px;
+    text-align: -webkit-center;
+}
+
+.icons {
+    width: 90%;
+    margin:0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: xx-large;
+    color: cadetblue;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: large;
+    color: cadetblue;
+    text-align: center;
+}
+
+.parent{
+    text-align:center;
+    display:inline-block;
+}
+
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.a_icons {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

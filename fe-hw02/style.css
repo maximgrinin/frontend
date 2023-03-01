@@ -1,0 +1,37 @@
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    align-content: center;
+}
+
+.zeebra tr:nth-child(4n+1) {
+    background-color: lightgreen;
+}
+
+.zeebra tr:nth-child(4n+2) {
+    background-color: lightseagreen;
+}
+
+
+.zeebra tr:nth-child(4n+3) {
+    background-color: lightpink;
+}
+
+.zeebra tr:nth-child(4n+4) {
+    background-color: lightskyblue;
+}
+
+.orderlist tr:first-child {
+    background-color: goldenrod
+}
+
+table.orderlist {
+    border-color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.orderlist th, .orderlist td, .orderlist tr {
+    border: 1px dashed gray;
+    padding: 10px;
+}

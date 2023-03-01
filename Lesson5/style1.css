@@ -1,0 +1,35 @@
+*  {
+    box-sizing: border-box;
+}
+
+.red {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.yellow {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.green {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.container {
+    border: 1px solid grey;
+    display: flex;
+    width: 100px;
+    height: 260px;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    /* align-items: center; */
+}
